@@ -1,0 +1,14 @@
+cors:
+  allowed_origins:
+    - localhost
+    - localhost:3000
+    - https://recipe-finder-webapp.fly.dev
+files:
+  supported_formats:
+    - json
+  cleanup_file_path: <%= Rails.root.join('config', 'data', 'ingredient_cleanup_rules.json') %>
+  recipe_dataset_file_path: <%= Rails.root.join('tmp', 'data', 'recipes-en.json') %>
+  recipe_dataset_file_path_minified: <%= Rails.root.join('tmp', 'data', 'recipes-en-minified.json') %>
+processing:
+  batch_size: 100
+
