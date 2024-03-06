@@ -21,6 +21,12 @@
    **I want to** toggle between broad and strict recipe matches,  
    **So that** I can either explore a variety of recipes or focus on ones that use only my available ingredients.
 
+## 🚀 Deployment
+
+- `API` is deployed on Fly on this url: https://recipe-finder-api.fly.dev/ingredients/search?name=flour
+
+- `WEBAPP` on https://recipe-finder-webapp.fly.dev/
+
 ## 🌐 Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -96,9 +102,3 @@ Includes database migrations, schema, and seeds.
 
 **spec/** <br/><br/>
 Root directory for all the tests. It's recommended to have corresponding test files for each of the main components files.
-
-## 🚀 Deployment
-
-- `API` is deployed on Fly on this url: https://recipe-finder-api.fly.dev/ingredients/search?name=flour
-
-- `WEBAPP` on https://recipe-finder-webapp.fly.dev/
